@@ -8,37 +8,38 @@
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="/assets/favicon-32x32.png"
+      href="/assets/favicon.png"
     />
     <link rel="stylesheet" href="/style.css" />
 
     <title>Frontend Mentor | Planets fact site</title>
   </head>
   <body>
-    <nav>
-      <ul>
-        <li><a class="logo" href="/index.html">the planets</a></li>
-        <li>
-          <a id="mercury" href="/index.html">mercury</a>
-          <a id="venus" href="venus.html">venus</a>
-          <a id="earth" href="earth.html">earth</a>
-          <a id="mars" href="mars.html">mars</a>
-          <a id="jupiter" href="jupiter.html">jupiter</a>
-          <a id="saturn" href="saturn.html">saturn</a>
-          <a id="uranus" href="uranus.html">uranus</a>
-          <a id="neptune" href="neptune.html">neptune</a>
-        </li>
-      </ul>
-    </nav>
+    <header>
+      <a class="logo" href="/index.html">the planets</a>
+      <nav>
+        <ul>
+          <li id="mercury"><a href="/index.html">mercury</a></li>
+          <li id="venus"><a href="venus.html">venus</a></li>
+          <li id="earth"><a href="earth.html">earth</a></li>
+          <li id="mars"><a href="mars.html">mars</a></li>
+          <li id="jupiter"><a href="jupiter.html">jupiter</a></li>
+          <li id="saturn"><a href="saturn.html">saturn</a></li>
+          <li id="uranus"><a href="uranus.html">uranus</a></li>
+          <li id="neptune"><a href="neptune.html">neptune</a></li>
+        </ul>
+      </nav>
+    </header>
+
     <main>
       <div class="infos">
         <div class="img">
-          <img src="/assets/planet-earth.svg" alt="" id="planetImage" />
+          <img src="../assets/planet/planet-earth.svg" alt="" id="planetImage" />
         </div>
 
         <div>
           <h1>Earth</h1>
-          <p id="planetText">
+          <p id="planetTextEarth">
             Third planet from the Sun and the only known<br />
             planet to harbor life. About 29.2% of Earth's<br />
             surface is land with remaining 70.8% is<br />
@@ -49,7 +50,7 @@
 
           <h2 id="link">
             Source:
-            <a href="https://en.wikipedia.org/wiki/Earth">
+            <a id="wikiLink" href="https://en.wikipedia.org/wiki/Earth">
               Wikipedia
               <img id="source" src="/assets/icon-source.svg" alt="Source icon"
             /></a>
@@ -120,6 +121,8 @@
           >victoriamnx.</a
         >
       </div>
+
+      <script src="earth.js"></script>
     </main>
   </body>
 </html>

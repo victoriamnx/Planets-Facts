@@ -8,37 +8,37 @@
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./assets/favicon-32x32.png"
+      href="/assets/favicon.png"
     />
     <link rel="stylesheet" href="/style.css" />
 
     <title>Frontend Mentor | Planets fact site</title>
   </head>
   <body>
-    <nav>
-      <ul>
-        <li><a class="logo" href="/index.html">the planets</a></li>
-        <li>
-          <a id="mercury" href="/index.html">mercury</a>
-          <a id="venus" href="venus.html">venus</a>
-          <a id="earth" href="earth.html">earth</a>
-          <a id="mars" href="mars.html">mars</a>
-          <a id="jupiter" href="jupiter.html">jupiter</a>
-          <a id="saturn" href="saturn.html">saturn</a>
-          <a id="uranus" href="uranus.html">uranus</a>
-          <a id="neptune" href="neptune.html">neptune</a>
-        </li>
-      </ul>
-    </nav>
+    <header>
+      <a class="logo" href="/index.html">the planets</a>
+      <nav>
+        <ul>
+          <li id="mercury"><a href="/index.html">mercury</a></li>
+          <li id="venus"><a href="venus.html">venus</a></li>
+          <li id="earth"><a href="earth.html">earth</a></li>
+          <li id="mars"><a href="mars.html">mars</a></li>
+          <li id="jupiter"><a href="jupiter.html">jupiter</a></li>
+          <li id="saturn"><a href="saturn.html">saturn</a></li>
+          <li id="uranus"><a href="uranus.html">uranus</a></li>
+          <li id="neptune"><a href="neptune.html">neptune</a></li>
+        </ul>
+      </nav>
+    </header>
     <main>
       <div class="infos">
         <div class="img">
-          <img src="/assets/planet-venus.svg" alt="" id="planetImage" />
+          <img src="../assets/planet/planet-venus.svg" alt="" id="planetImage" />
         </div>
 
         <div>
           <h1>Venus</h1>
-          <p id="planetText">
+          <p id="planetTextVenus">
             Venus is the second planet from the Sun.<br />
             It is named after the Roman goddess of love and<br />
             beauty. As the brightest natural object in<br />
@@ -49,22 +49,22 @@
 
           <h2 id="link">
             Source:
-            <a href="https://en.wikipedia.org/wiki/Venus">
+            <a id="wikiLink" href="https://en.wikipedia.org/wiki/Venus">
               Wikipedia
               <img id="source" src="/assets/icon-source.svg" alt="Source icon"
             /></a>
           </h2>
 
           <div class="btns">
-            <button id="overviewButton">
+            <button id="overviewButton" class="btnVenus">
               <h2>01</h2>
               Overview
             </button>
-            <button id="internalStructureButton">
+            <button id="internalStructureButton" class="btnVenus">
               <h2>02</h2>
               Internal Structure
             </button>
-            <button id="surfaceGeologyButton">
+            <button id="surfaceGeologyButton" class="btnVenus">
               <h2>03</h2>
               Surface Geology
             </button>
@@ -125,7 +125,7 @@
         >
       </div>
 
-      <script src="index.js"></script>
+      <script src="venus.js"></script>
     </main>
   </body>
 </html>
