@@ -15,25 +15,30 @@
     <title>Frontend Mentor | Planets fact site</title>
   </head>
   <body>
-    <nav>
-      <ul>
-        <li><a class="logo" href="index.html">the planets</a></li>
-        <li>
-          <a id="mercury" href="index.html">mercury</a>
-          <a id="venus" href="./pages/venus.html">venus</a>
-          <a id="earth" href="./pages/earth.html">earth</a>
-          <a id="mars" href="./pages/mars.html">mars</a>
-          <a id="jupiter" href="./pages/jupiter.html">jupiter</a>
-          <a id="saturn" href="./pages/saturn.html">saturn</a>
-          <a id="uranus" href="./pages/uranus.html">uranus</a>
-          <a id="neptune" href="./pages/neptune.html">neptune</a>
-        </li>
-      </ul>
-    </nav>
+    <header>
+      <a class="logo" href="index.html">the planets</a>
+      <nav>
+        <ul>
+          <li id="mercury"><a href="index.html">mercury</a></li>
+          <li id="venus"><a href="./pages/venus.html">venus</a></li>
+          <li id="earth"><a href="./pages/earth.html">earth</a></li>
+          <li id="mars"><a href="./pages/mars.html">mars</a></li>
+          <li id="jupiter"><a href="./pages/jupiter.html">jupiter</a></li>
+          <li id="saturn"><a href="./pages/saturn.html">saturn</a></li>
+          <li id="uranus"><a href="./pages/uranus.html">uranus</a></li>
+          <li id="neptune"><a href="./pages/neptune.html">neptune</a></li>
+        </ul>
+      </nav>
+    </header>
+
     <main>
       <div class="infos">
         <div class="img">
-          <img src="./assets/planet-mercury.svg" alt="" id="planetImage" />
+          <img
+            src="./assets/planet/planet-mercury.svg"
+            alt=""
+            id="planetImage"
+          />
         </div>
 
         <div>
@@ -48,7 +53,10 @@
           </p>
           <h2 id="link">
             Source:
-            <a href="https://en.wikipedia.org/wiki/Mercury_(planet)">
+            <a
+              id="wikiLink"
+              href="https://en.wikipedia.org/wiki/Mercury_(planet)"
+            >
               Wikipedia
               <img id="source" src="assets/icon-source.svg" alt="Source icon"
             /></a>
@@ -69,30 +77,6 @@
             </button>
           </div>
         </div>
-
-        <!-- Internal Structure Content Start
-    
-          Mercury appears to have a solid silicate crust and mantle overlying a
-          solid, iron sulfide outer core layer, a deeper liquid core layer, and a
-          solid inner core. The planet's density is the second highest in the Solar
-          System at 5.427 g/cm3 , only slightly less than Earth's density. Source :
-          Wikipedia
-          
-           URL: https://en.wikipedia.org/wiki/Mercury_(planet)#Internal_structure 
-    
-    
-          
-             Surface Geology Content Start
-    
-          Mercury's surface is similar in appearance to that of the Moon, showing
-          extensive mare-like plains and heavy cratering, indicating that it has
-          been geologically inactive for billions of years. It is more heterogeneous
-          than either Mars's or the Moon’s. Source : Wikipedia
-          
-           URL: https://en.wikipedia.org/wiki/Mercury_(planet)#Surface_geology
-    
-    
-          01 Overview 02 Internal Structure 03 Surface Geology  -->
       </div>
 
       <div class="statics">
@@ -112,6 +96,8 @@
           <h1>Average Temp.</h1>
           <h2>430°c</h2>
         </div>
+
+        
       </div>
 
       <div class="attribution">
