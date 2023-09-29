@@ -200,6 +200,7 @@ button {
   padding-left: 1.75rem;
   user-select: none;
   transition: 0.9s;
+  cursor: pointer;
   gap: 1.56rem;
 }
 
